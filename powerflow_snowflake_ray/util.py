@@ -1,0 +1,5 @@
+dpf_input_table_name = "GRIDMOD_DEV_TD.UC_POC.IEEE_DPF_SYNTHETIC"
+dpf_input_table_name = "GRIDMOD_DEV_TD.UC_POC.IEEE_DPF_SYNTHETIC"
+stage = "GRIDMOD_DEV_TD.UC_POC.DPF_RUNS"
+job_stage = "GRIDMOD_DEV_TD.UC_POC.JOB_STAGE"
+compute_pool = "ML_CPU_S"

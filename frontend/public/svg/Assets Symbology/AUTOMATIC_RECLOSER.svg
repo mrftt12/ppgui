@@ -1,0 +1,12 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="100" height="100" fill="white"/>
+<rect x="28.5" y="20.5" width="43" height="43" stroke="black"/>
+<path d="M28.5 63.5L71.5 20.5" stroke="black"/>
+<path d="M71.5 63.5L28.5 20.5" stroke="black"/>
+<path d="M72 42H78" stroke="black"/>
+<path d="M32 69H68" stroke="black"/>
+<path d="M37 74H63" stroke="black"/>
+<path d="M43 79H57" stroke="black"/>
+<path d="M23 42H29" stroke="black"/>
+<path d="M50 64V79.5" stroke="black"/>
+</svg>

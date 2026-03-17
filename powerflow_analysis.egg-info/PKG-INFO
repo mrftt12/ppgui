@@ -1,0 +1,136 @@
+Metadata-Version: 2.1
+Name: powerflow_analysis
+Version: 0.1.4
+Summary: A package for powerflow analysis using pandapower
+Author-email: Jeff Elmore <jeff.elmore@itron.com>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+Requires-Dist: pandapower
+Requires-Dist: snowflake-snowpark-python
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+
+# PowerFlow Analysis Package
+
+This package provides tools for power flow analysis using pandapower, with support for both local and distributed (Snowflake) execution.
+
+## Installation
+
+To install the package, clone the repository and install using pip:
+
+```bash
+git clone https://github.com/yourusername/powerflow_analysis.git
+cd powerflow_analysis
+pip install .
+```
+
+For development, install in editable mode with test dependencies:
+
+```bash
+pip install -e .[test]
+```
+
+## Usage
+
+### Command Line Interface (CLI)
+
+After installation, you can use the `powerflow` command to interact with the package:
+
+1. Download circuit data:
+   ```bash
+   powerflow download-circuit --circuit-key CKT_1234 --snowflake-config snowflake_config.json
+   ```
+
+2. Create GridAnalysis object:
+   ```bash
+   powerflow create-grid-analysis --input circuit_data.xlsx
+   ```
+
+3. Run local analysis:
+   ```bash
+   powerflow run-local-analysis --input grid_analysis.pkl --start-time "2023-01-01" --end-time "2023-01-07"
+   ```
+
+4. Run Snowflake analysis:
+   ```bash
+   powerflow run-snowflake-analysis --circuit-key CKT_1234 --start-time "2023-01-01" --end-time "2023-01-07" --snowflake-config snowflake_config.json
+   ```
+
+5. Export full analysis data:
+   ```bash
+   powerflow export-full-analysis --input grid_analysis.pkl
+   ```
+
+### Python API
+
+You can also use the package in your Python scripts:
+
+```python
+from powerflow_analysis.grid import GridFactory
+from powerflow_analysis.analysis import run_local_powerflow
+
+# Create a grid from Excel data
+grid = GridFactory.create_grid("excel", file_path="circuit_data.xlsx")
+grid.build_grid("circuit_1")
+
+# Run local powerflow analysis
+results = run_local_powerflow(grid, "2023-01-01", "2023-01-02")
+print(results)
+```
+
+## Project Structure
+
+powerflow_analysis/
+│
+├── src/
+│   └── powerflow_analysis/
+│       ├── __init__.py
+│       ├── data/
+│       │   ├── __init__.py
+│       │   ├── data_source.py
+│       │   ├── excel_source.py
+│       │   └── snowflake_source.py
+│       ├── grid/
+│       │   ├── __init__.py
+│       │   ├── grid.py
+│       │   └── grid_factory.py
+│       ├── analysis/
+│       │   ├── __init__.py
+│       │   └── powerflow.py
+│       └── utils/
+│           ├── __init__.py
+│           └── config.py
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_data_source.py
+│   ├── test_grid.py
+│   └── test_powerflow.py
+│
+├── examples/
+│   ├── excel_import_local_analysis.py
+│   └── snowflake_import_distributed_analysis.py
+│
+├── pyproject.toml
+├── setup.py
+└── README.md
+
+## Running Tests
+
+To run the automated tests:
+
+```bash
+pytest
+```
+
+## License
+
+[Your chosen license]
+
+## Contributing
+
+[Your contribution guidelines]

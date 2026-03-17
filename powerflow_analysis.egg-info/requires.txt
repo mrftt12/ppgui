@@ -1,0 +1,8 @@
+click
+pandas
+openpyxl
+pandapower
+snowflake-snowpark-python
+
+[test]
+pytest

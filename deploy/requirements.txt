@@ -1,0 +1,3 @@
+snowflake-connector-python
+snowflake-snowpark-python==1.42.0
+dotenv

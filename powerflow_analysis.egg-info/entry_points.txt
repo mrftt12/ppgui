@@ -1,0 +1,2 @@
+[console_scripts]
+powerflow = powerflow_analysis.cli:cli

@@ -1,0 +1,13 @@
+fastapi>=0.109.0
+uvicorn>=0.27.0
+python-multipart
+pandapower
+networkx
+pandas
+numpy
+xlsxwriter
+openpyxl
+scipy
+dotted-dict
+numba
+pyproj

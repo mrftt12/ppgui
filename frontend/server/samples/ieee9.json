@@ -1,0 +1,520 @@
+{
+  "connections": [
+    {
+      "fromElementId": "15f54d92-d2be-4def-a972-85c3bcc55191",
+      "fromPort": "output",
+      "id": "80bdec38-cc15-42bd-ba02-2218fc3360a1",
+      "toElementId": "69c41c57-2464-478b-b3af-fe9e2d698dcd",
+      "toPort": "input"
+    },
+    {
+      "fromElementId": "a75faea6-fa04-4582-8975-0135865b40ce",
+      "fromPort": "output",
+      "id": "7b20d1c5-19fe-4591-9f92-f888930b3580",
+      "toElementId": "002a4159-8ab8-4bf7-a98e-670f8d69e32b",
+      "toPort": "input"
+    },
+    {
+      "fromElementId": "6fd7e6cb-4cf8-46be-8269-7959ea844dbc",
+      "fromPort": "output",
+      "id": "ad695e00-ca9b-47c9-91b2-04363bf0fe28",
+      "toElementId": "7ab26df7-a6bc-4f7e-8a30-f8704074a962",
+      "toPort": "input"
+    },
+    {
+      "fromElementId": "1bcd944f-487b-4bc6-8af0-3e77079f0feb",
+      "fromPort": "output",
+      "id": "8fcd933c-d75b-4302-8b63-cca8fe27ea02",
+      "toElementId": "4fd99630-4100-4e1f-8011-cff0758d7a84",
+      "toPort": "input"
+    },
+    {
+      "fromElementId": "6da41fce-35c2-4e48-b62b-bb34b9168dd2",
+      "fromPort": "output",
+      "id": "28ae039b-1182-4e05-b79c-bc4e450eba00",
+      "toElementId": "e75f77ed-306b-43e4-89eb-e29e56a2e593",
+      "toPort": "input"
+    },
+    {
+      "fromElementId": "9d30a91a-c988-44b8-b725-a28e74feeb7b",
+      "fromPort": "output",
+      "id": "ac62b6af-70b0-4761-98be-7f59572697fd",
+      "toElementId": "b3cf5a38-4617-4609-9581-4528fe3b0795",
+      "toPort": "input"
+    },
+    {
+      "fromElementId": "69c41c57-2464-478b-b3af-fe9e2d698dcd",
+      "fromPort": "output",
+      "id": "6a16b77b-9ef9-4ff5-ad59-c54110871de5",
+      "toElementId": "6c7fa498-3c8b-4d98-9aba-ffd80a0dfb24",
+      "toPort": "input"
+    },
+    {
+      "fromElementId": "6c7fa498-3c8b-4d98-9aba-ffd80a0dfb24",
+      "fromPort": "output",
+      "id": "894dbb68-e99e-49ce-9404-988b21b1f0ba",
+      "toElementId": "fc34a5d4-0db2-45e0-bbd1-317e3a2aae6f",
+      "toPort": "input"
+    },
+    {
+      "fromElementId": "fc34a5d4-0db2-45e0-bbd1-317e3a2aae6f",
+      "fromPort": "output",
+      "id": "8e395d63-c4ce-41d6-8977-d2d28df77706",
+      "toElementId": "611ea3de-ba21-41da-a04b-3a0e3fa623e3",
+      "toPort": "input"
+    },
+    {
+      "fromElementId": "611ea3de-ba21-41da-a04b-3a0e3fa623e3",
+      "fromPort": "output",
+      "id": "8049f9c0-d92f-4b4f-8f03-303c53b5f9b0",
+      "toElementId": "4fd99630-4100-4e1f-8011-cff0758d7a84",
+      "toPort": "input"
+    },
+    {
+      "fromElementId": "4fd99630-4100-4e1f-8011-cff0758d7a84",
+      "fromPort": "output",
+      "id": "6a104030-9ba0-44ed-b398-1b74a81a8167",
+      "toElementId": "5bd5c9d6-f890-407b-9544-a1511bdf865d",
+      "toPort": "input"
+    },
+    {
+      "fromElementId": "5bd5c9d6-f890-407b-9544-a1511bdf865d",
+      "fromPort": "output",
+      "id": "238af82e-1cbb-46fd-943a-252bcc4243d6",
+      "toElementId": "fa67c7ad-7a7b-485e-ad3b-d7d4be23f4dd",
+      "toPort": "input"
+    },
+    {
+      "fromElementId": "7ab26df7-a6bc-4f7e-8a30-f8704074a962",
+      "fromPort": "output",
+      "id": "613af7bb-0d80-4940-8873-4c115b511fb6",
+      "toElementId": "4021e0c0-af08-46e0-ac38-2498b56b9b52",
+      "toPort": "input"
+    },
+    {
+      "fromElementId": "4021e0c0-af08-46e0-ac38-2498b56b9b52",
+      "fromPort": "output",
+      "id": "cff0655f-7e12-449b-bff1-c7edf0ce5934",
+      "toElementId": "fa67c7ad-7a7b-485e-ad3b-d7d4be23f4dd",
+      "toPort": "input"
+    },
+    {
+      "fromElementId": "fa67c7ad-7a7b-485e-ad3b-d7d4be23f4dd",
+      "fromPort": "output",
+      "id": "7536a833-a7d7-429a-9b0a-93b50cf7064d",
+      "toElementId": "908f816f-6f04-415e-a1dd-61e1ae30a636",
+      "toPort": "input"
+    },
+    {
+      "fromElementId": "908f816f-6f04-415e-a1dd-61e1ae30a636",
+      "fromPort": "output",
+      "id": "088622bb-21f1-4563-8767-e405bb3cbea0",
+      "toElementId": "e75f77ed-306b-43e4-89eb-e29e56a2e593",
+      "toPort": "input"
+    },
+    {
+      "fromElementId": "e75f77ed-306b-43e4-89eb-e29e56a2e593",
+      "fromPort": "output",
+      "id": "3ee03f56-36b7-460f-a421-402ac3f2bb60",
+      "toElementId": "9fce52c7-b8a4-4493-a9f1-3e9bc94b388d",
+      "toPort": "input"
+    },
+    {
+      "fromElementId": "9fce52c7-b8a4-4493-a9f1-3e9bc94b388d",
+      "fromPort": "output",
+      "id": "75f6abea-cddb-4e26-9140-fa10e7c59374",
+      "toElementId": "972a4bde-7997-4ad1-b00e-4b47e3a860d5",
+      "toPort": "input"
+    },
+    {
+      "fromElementId": "972a4bde-7997-4ad1-b00e-4b47e3a860d5",
+      "fromPort": "output",
+      "id": "9b128fc6-96b4-4ca7-8543-ba5aa64cbb19",
+      "toElementId": "28a6cf8c-b2b0-4e2e-ad78-4a087249e9ed",
+      "toPort": "input"
+    },
+    {
+      "fromElementId": "28a6cf8c-b2b0-4e2e-ad78-4a087249e9ed",
+      "fromPort": "output",
+      "id": "e495c1b5-4353-4607-9bc5-8ba77a36ef74",
+      "toElementId": "002a4159-8ab8-4bf7-a98e-670f8d69e32b",
+      "toPort": "input"
+    },
+    {
+      "fromElementId": "972a4bde-7997-4ad1-b00e-4b47e3a860d5",
+      "fromPort": "output",
+      "id": "0fc692f6-8a28-4e67-8939-a6e6076250f9",
+      "toElementId": "42c9aca2-0530-471a-8d81-437255f68393",
+      "toPort": "input"
+    },
+    {
+      "fromElementId": "42c9aca2-0530-471a-8d81-437255f68393",
+      "fromPort": "output",
+      "id": "4d052815-1c60-4b13-b439-8d0b841ae3cd",
+      "toElementId": "b3cf5a38-4617-4609-9581-4528fe3b0795",
+      "toPort": "input"
+    },
+    {
+      "fromElementId": "b3cf5a38-4617-4609-9581-4528fe3b0795",
+      "fromPort": "output",
+      "id": "cf51c81d-15c2-44a9-8c39-0417de8ef484",
+      "toElementId": "027df7dd-6e55-43a9-8e64-6e12ca6919f3",
+      "toPort": "input"
+    },
+    {
+      "fromElementId": "027df7dd-6e55-43a9-8e64-6e12ca6919f3",
+      "fromPort": "output",
+      "id": "e061c632-64b5-40cb-afb4-6f93aa68df4d",
+      "toElementId": "fc34a5d4-0db2-45e0-bbd1-317e3a2aae6f",
+      "toPort": "input"
+    }
+  ],
+  "elements": [
+    {
+      "busType": "slack",
+      "enabled": true,
+      "id": "69c41c57-2464-478b-b3af-fe9e2d698dcd",
+      "name": 1,
+      "nominalVoltageKV": 345.0,
+      "rotation": 0,
+      "type": "bus",
+      "x": 100,
+      "y": 100
+    },
+    {
+      "busType": "pv",
+      "enabled": true,
+      "id": "002a4159-8ab8-4bf7-a98e-670f8d69e32b",
+      "name": 2,
+      "nominalVoltageKV": 345.0,
+      "rotation": 0,
+      "type": "bus",
+      "x": 220,
+      "y": 100
+    },
+    {
+      "busType": "pv",
+      "enabled": true,
+      "id": "7ab26df7-a6bc-4f7e-8a30-f8704074a962",
+      "name": 3,
+      "nominalVoltageKV": 345.0,
+      "rotation": 0,
+      "type": "bus",
+      "x": 340,
+      "y": 100
+    },
+    {
+      "busType": "pq",
+      "enabled": true,
+      "id": "fc34a5d4-0db2-45e0-bbd1-317e3a2aae6f",
+      "name": 4,
+      "nominalVoltageKV": 345.0,
+      "rotation": 0,
+      "type": "bus",
+      "x": 460,
+      "y": 100
+    },
+    {
+      "busType": "pq",
+      "enabled": true,
+      "id": "4fd99630-4100-4e1f-8011-cff0758d7a84",
+      "name": 5,
+      "nominalVoltageKV": 345.0,
+      "rotation": 0,
+      "type": "bus",
+      "x": 580,
+      "y": 100
+    },
+    {
+      "busType": "pq",
+      "enabled": true,
+      "id": "fa67c7ad-7a7b-485e-ad3b-d7d4be23f4dd",
+      "name": 6,
+      "nominalVoltageKV": 345.0,
+      "rotation": 0,
+      "type": "bus",
+      "x": 700,
+      "y": 100
+    },
+    {
+      "busType": "pq",
+      "enabled": true,
+      "id": "e75f77ed-306b-43e4-89eb-e29e56a2e593",
+      "name": 7,
+      "nominalVoltageKV": 345.0,
+      "rotation": 0,
+      "type": "bus",
+      "x": 820,
+      "y": 100
+    },
+    {
+      "busType": "pq",
+      "enabled": true,
+      "id": "972a4bde-7997-4ad1-b00e-4b47e3a860d5",
+      "name": 8,
+      "nominalVoltageKV": 345.0,
+      "rotation": 0,
+      "type": "bus",
+      "x": 940,
+      "y": 100
+    },
+    {
+      "busType": "pq",
+      "enabled": true,
+      "id": "b3cf5a38-4617-4609-9581-4528fe3b0795",
+      "name": 9,
+      "nominalVoltageKV": 345.0,
+      "rotation": 0,
+      "type": "bus",
+      "x": 1060,
+      "y": 100
+    },
+    {
+      "enabled": true,
+      "id": "15f54d92-d2be-4def-a972-85c3bcc55191",
+      "name": "Grid 0",
+      "phaseAngle": 0.0,
+      "rotation": 0,
+      "shortCircuitMVA": 5000,
+      "type": "external_source",
+      "voltageKV": 345.0,
+      "x": 40,
+      "xrRatio": 15,
+      "y": 100
+    },
+    {
+      "activePowerMW": 163.0,
+      "connectedBusId": "002a4159-8ab8-4bf7-a98e-670f8d69e32b",
+      "enabled": true,
+      "id": "a75faea6-fa04-4582-8975-0135865b40ce",
+      "maxReactivePowerMVAR": 300.0,
+      "minReactivePowerMVAR": -300.0,
+      "name": "Gen 1",
+      "ratingMVA": 195.6,
+      "rotation": 0,
+      "type": "generator",
+      "voltageSetpointPU": 1.0,
+      "x": 280,
+      "y": 70
+    },
+    {
+      "activePowerMW": 85.0,
+      "connectedBusId": "7ab26df7-a6bc-4f7e-8a30-f8704074a962",
+      "enabled": true,
+      "id": "6fd7e6cb-4cf8-46be-8269-7959ea844dbc",
+      "maxReactivePowerMVAR": 300.0,
+      "minReactivePowerMVAR": -300.0,
+      "name": "Gen 2",
+      "ratingMVA": 102.0,
+      "rotation": 0,
+      "type": "generator",
+      "voltageSetpointPU": 1.0,
+      "x": 400,
+      "y": 70
+    },
+    {
+      "activePowerKW": 90000.0,
+      "connectedBusId": "4fd99630-4100-4e1f-8011-cff0758d7a84",
+      "enabled": true,
+      "id": "1bcd944f-487b-4bc6-8af0-3e77079f0feb",
+      "loadModel": "constant_power",
+      "name": "Load 4",
+      "phaseAPower": 33.33,
+      "phaseBPower": 33.33,
+      "phaseCPower": 33.34,
+      "reactivePowerKVAR": 30000.0,
+      "rotation": 0,
+      "type": "load",
+      "unbalanced": false,
+      "x": 640,
+      "y": 130
+    },
+    {
+      "activePowerKW": 100000.0,
+      "connectedBusId": "e75f77ed-306b-43e4-89eb-e29e56a2e593",
+      "enabled": true,
+      "id": "6da41fce-35c2-4e48-b62b-bb34b9168dd2",
+      "loadModel": "constant_power",
+      "name": "Load 6",
+      "phaseAPower": 33.33,
+      "phaseBPower": 33.33,
+      "phaseCPower": 33.34,
+      "reactivePowerKVAR": 35000.0,
+      "rotation": 0,
+      "type": "load",
+      "unbalanced": false,
+      "x": 880,
+      "y": 130
+    },
+    {
+      "activePowerKW": 125000.0,
+      "connectedBusId": "b3cf5a38-4617-4609-9581-4528fe3b0795",
+      "enabled": true,
+      "id": "9d30a91a-c988-44b8-b725-a28e74feeb7b",
+      "loadModel": "constant_power",
+      "name": "Load 8",
+      "phaseAPower": 33.33,
+      "phaseBPower": 33.33,
+      "phaseCPower": 33.34,
+      "reactivePowerKVAR": 50000.0,
+      "rotation": 0,
+      "type": "load",
+      "unbalanced": false,
+      "x": 1120,
+      "y": 130
+    },
+    {
+      "enabled": true,
+      "fromBusId": "69c41c57-2464-478b-b3af-fe9e2d698dcd",
+      "fromElementId": "69c41c57-2464-478b-b3af-fe9e2d698dcd",
+      "id": "6c7fa498-3c8b-4d98-9aba-ffd80a0dfb24",
+      "lengthKm": 1.0,
+      "name": "L0-3",
+      "reactanceOhmPerKm": 68.55839999999999,
+      "resistanceOhmPerKm": 0.0,
+      "rotation": 0,
+      "susceptanceSPerKm": 0.0,
+      "toBusId": "fc34a5d4-0db2-45e0-bbd1-317e3a2aae6f",
+      "toElementId": "fc34a5d4-0db2-45e0-bbd1-317e3a2aae6f",
+      "type": "line",
+      "x": 280.0,
+      "y": 100.0
+    },
+    {
+      "enabled": true,
+      "fromBusId": "fc34a5d4-0db2-45e0-bbd1-317e3a2aae6f",
+      "fromElementId": "fc34a5d4-0db2-45e0-bbd1-317e3a2aae6f",
+      "id": "611ea3de-ba21-41da-a04b-3a0e3fa623e3",
+      "lengthKm": 1.0,
+      "name": "L3-4",
+      "reactanceOhmPerKm": 109.503,
+      "resistanceOhmPerKm": 20.23425,
+      "rotation": 0,
+      "susceptanceSPerKm": 0.00013274522159210253,
+      "toBusId": "4fd99630-4100-4e1f-8011-cff0758d7a84",
+      "toElementId": "4fd99630-4100-4e1f-8011-cff0758d7a84",
+      "type": "line",
+      "x": 520.0,
+      "y": 100.0
+    },
+    {
+      "enabled": true,
+      "fromBusId": "4fd99630-4100-4e1f-8011-cff0758d7a84",
+      "fromElementId": "4fd99630-4100-4e1f-8011-cff0758d7a84",
+      "id": "5bd5c9d6-f890-407b-9544-a1511bdf865d",
+      "lengthKm": 1.0,
+      "name": "L4-5",
+      "reactanceOhmPerKm": 202.3425,
+      "resistanceOhmPerKm": 46.41975,
+      "rotation": 0,
+      "susceptanceSPerKm": 0.000300777147658055,
+      "toBusId": "fa67c7ad-7a7b-485e-ad3b-d7d4be23f4dd",
+      "toElementId": "fa67c7ad-7a7b-485e-ad3b-d7d4be23f4dd",
+      "type": "line",
+      "x": 640.0,
+      "y": 100.0
+    },
+    {
+      "enabled": true,
+      "fromBusId": "7ab26df7-a6bc-4f7e-8a30-f8704074a962",
+      "fromElementId": "7ab26df7-a6bc-4f7e-8a30-f8704074a962",
+      "id": "4021e0c0-af08-46e0-ac38-2498b56b9b52",
+      "lengthKm": 1.0,
+      "name": "L2-5",
+      "reactanceOhmPerKm": 69.74865,
+      "resistanceOhmPerKm": 0.0,
+      "rotation": 0,
+      "susceptanceSPerKm": 0.0,
+      "toBusId": "fa67c7ad-7a7b-485e-ad3b-d7d4be23f4dd",
+      "toElementId": "fa67c7ad-7a7b-485e-ad3b-d7d4be23f4dd",
+      "type": "line",
+      "x": 520.0,
+      "y": 100.0
+    },
+    {
+      "enabled": true,
+      "fromBusId": "fa67c7ad-7a7b-485e-ad3b-d7d4be23f4dd",
+      "fromElementId": "fa67c7ad-7a7b-485e-ad3b-d7d4be23f4dd",
+      "id": "908f816f-6f04-415e-a1dd-61e1ae30a636",
+      "lengthKm": 1.0,
+      "name": "L5-6",
+      "reactanceOhmPerKm": 119.9772,
+      "resistanceOhmPerKm": 14.163975,
+      "rotation": 0,
+      "susceptanceSPerKm": 0.00017559336273892043,
+      "toBusId": "e75f77ed-306b-43e4-89eb-e29e56a2e593",
+      "toElementId": "e75f77ed-306b-43e4-89eb-e29e56a2e593",
+      "type": "line",
+      "x": 760.0,
+      "y": 100.0
+    },
+    {
+      "enabled": true,
+      "fromBusId": "e75f77ed-306b-43e4-89eb-e29e56a2e593",
+      "fromElementId": "e75f77ed-306b-43e4-89eb-e29e56a2e593",
+      "id": "9fce52c7-b8a4-4493-a9f1-3e9bc94b388d",
+      "lengthKm": 1.0,
+      "name": "L6-7",
+      "reactanceOhmPerKm": 85.698,
+      "resistanceOhmPerKm": 10.117125,
+      "rotation": 0,
+      "susceptanceSPerKm": 0.00012518378491913466,
+      "toBusId": "972a4bde-7997-4ad1-b00e-4b47e3a860d5",
+      "toElementId": "972a4bde-7997-4ad1-b00e-4b47e3a860d5",
+      "type": "line",
+      "x": 880.0,
+      "y": 100.0
+    },
+    {
+      "enabled": true,
+      "fromBusId": "972a4bde-7997-4ad1-b00e-4b47e3a860d5",
+      "fromElementId": "972a4bde-7997-4ad1-b00e-4b47e3a860d5",
+      "id": "28a6cf8c-b2b0-4e2e-ad78-4a087249e9ed",
+      "lengthKm": 1.0,
+      "name": "L7-1",
+      "reactanceOhmPerKm": 74.390625,
+      "resistanceOhmPerKm": 0.0,
+      "rotation": 0,
+      "susceptanceSPerKm": 0.0,
+      "toBusId": "002a4159-8ab8-4bf7-a98e-670f8d69e32b",
+      "toElementId": "002a4159-8ab8-4bf7-a98e-670f8d69e32b",
+      "type": "line",
+      "x": 580.0,
+      "y": 100.0
+    },
+    {
+      "enabled": true,
+      "fromBusId": "972a4bde-7997-4ad1-b00e-4b47e3a860d5",
+      "fromElementId": "972a4bde-7997-4ad1-b00e-4b47e3a860d5",
+      "id": "42c9aca2-0530-471a-8d81-437255f68393",
+      "lengthKm": 1.0,
+      "name": "L7-8",
+      "reactanceOhmPerKm": 191.63025000000002,
+      "resistanceOhmPerKm": 38.088,
+      "rotation": 0,
+      "susceptanceSPerKm": 0.00025708884688090735,
+      "toBusId": "b3cf5a38-4617-4609-9581-4528fe3b0795",
+      "toElementId": "b3cf5a38-4617-4609-9581-4528fe3b0795",
+      "type": "line",
+      "x": 1000.0,
+      "y": 100.0
+    },
+    {
+      "enabled": true,
+      "fromBusId": "b3cf5a38-4617-4609-9581-4528fe3b0795",
+      "fromElementId": "b3cf5a38-4617-4609-9581-4528fe3b0795",
+      "id": "027df7dd-6e55-43a9-8e64-6e12ca6919f3",
+      "lengthKm": 1.0,
+      "name": "L8-3",
+      "reactanceOhmPerKm": 101.17125,
+      "resistanceOhmPerKm": 11.9025,
+      "rotation": 0,
+      "susceptanceSPerKm": 0.00014786809493803825,
+      "toBusId": "fc34a5d4-0db2-45e0-bbd1-317e3a2aae6f",
+      "toElementId": "fc34a5d4-0db2-45e0-bbd1-317e3a2aae6f",
+      "type": "line",
+      "x": 760.0,
+      "y": 100.0
+    }
+  ]
+}

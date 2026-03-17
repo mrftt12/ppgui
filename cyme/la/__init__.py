@@ -1,0 +1,1 @@
+from cyme.la.load_allocation import run_load_allocation
