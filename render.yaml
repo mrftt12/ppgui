@@ -1,0 +1,35 @@
+# Render Blueprint — mc_opendss
+# https://render.com/docs/blueprint-spec
+
+services:
+  # ── Backend (FastAPI + Uvicorn) ──
+  - type: web
+    name: loadflow-backend
+    runtime: docker
+    dockerfilePath: backend/Dockerfile
+    dockerContext: .
+    plan: starter
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORT
+        value: "8001"
+      - key: PYTHONUNBUFFERED
+        value: "1"
+
+  # ── Frontend (React + Express) ──
+  - type: web
+    name: loadflow-frontend
+    runtime: docker
+    dockerfilePath: frontend/Dockerfile
+    dockerContext: frontend
+    plan: starter
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: "8080"
+      - key: REACT_APP_BACKEND_URL
+        fromService:
+          name: loadflow-backend
+          type: web
+          envVarKey: RENDER_EXTERNAL_URL
