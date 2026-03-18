@@ -18,3 +18,8 @@ app.include_router(router)
 @app.get("/")
 async def root():
     return {"message": "Load Flow Analysis API is running"}
+
+
+@app.get("/api/health")
+async def health():
+    return {"status": "ok"}

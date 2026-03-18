@@ -14,4 +14,4 @@ COPY backend /app/backend
 COPY multiconductor /app/multiconductor
 COPY output_pandapower /app/output_pandapower
 
-CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "8080"]
+CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "8001"]
